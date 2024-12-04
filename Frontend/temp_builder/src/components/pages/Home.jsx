@@ -15,7 +15,7 @@ const Home = () => {
     const fetchTemplates = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:8000/api/templates/get-templates"
+          "https://tempbuilder-backend.onrender.com/api/templates/get-templates"
         );
         setTemplates(response.data.data || []);
       } catch (error) {
@@ -52,7 +52,7 @@ const Home = () => {
   const handleDelete = async (id) => {
     try {
       await axios.delete(
-        `http://localhost:8000/api/templates/delete-temp/${id}`
+        `https://tempbuilder-backend.onrender.com/api/templates/delete-temp/${id}`
       );
       setTemplates((prevTemplates) =>
         prevTemplates.filter((template) => template._id !== id)

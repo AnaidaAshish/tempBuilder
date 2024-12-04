@@ -13,7 +13,7 @@ const Editor = () => {
   useEffect(() => {
     if (id) {
       axios
-        .get(`http://localhost:8000/api/templates/${id}`)
+        .get(`https://tempbuilder-backend.onrender.com/api/templates/${id}`)
         .then((response) => {
           const { name, content } = response.data;
           setName(name);
@@ -35,12 +35,12 @@ const Editor = () => {
     try {
       if (id) {
         await axios.put(
-          `http://localhost:8000/api/templates/update-temp/${id}`,
+          `https://tempbuilder-backend.onrender.com/api/templates/update-temp/${id}`,
           payload
         );
       } else {
         await axios.post(
-          "http://localhost:8000/api/templates/create-temp",
+          "https://tempbuilder-backend.onrender.com/api/templates/create-temp",
           payload
         );
       }

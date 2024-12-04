@@ -8,7 +8,7 @@ const TemplateLibrary = () => {
   const navigate = useNavigate();
 
   useEffect(() => {
-    axios.get('http://localhost:8000/api/templates/get-templates')
+    axios.get('https://tempbuilder-backend.onrender.com/api/templates/get-templates')
       .then((response) => {
         console.log(response.data);  
         if (response.data && response.data.data && Array.isArray(response.data.data)) {
