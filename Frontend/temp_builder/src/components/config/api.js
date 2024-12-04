@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-const API = axios.create({ baseURL: 'http://localhost:8000/api/templates' });
+const API = axios.create({ baseURL: 'https://tempbuilder-backend.onrender.com/api/templates' });
 
 export const fetchTemplates = () => API.get('/get-templates');
 export const createTemplate = (template) => API.post('/create-temp', template);
