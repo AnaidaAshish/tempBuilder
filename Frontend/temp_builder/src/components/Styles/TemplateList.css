@@ -1,0 +1,26 @@
+.template-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 20px;
+    justify-content: center;
+  }
+  
+  .template-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .template-card h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .template-card p {
+    margin: 5px 0;
+  }
+  

@@ -1,0 +1,107 @@
+.parent {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+  }
+  
+  .divOne {
+    width: 100%;
+    display: flex;
+    justify-content: flex-end;
+    padding: 10px 20px;
+    background-color: #007bff;
+  }
+  
+  .createTemp button {
+    background-color: #28a745;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+  }
+  
+  .createTemp button:hover {
+    background-color: #218838;
+  }
+  
+  .divTwo {
+    width: 80%;
+    background: white;
+    padding: 20px;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  }
+  
+  .Homebtns {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .library {
+    background-color: #007bff;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    border-radius: 5px;
+    cursor: pointer;
+  }
+  
+  .library:hover {
+    background-color: #0056b3;
+  }
+  
+  .search-bar input {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+  }
+  
+  .sort-dropdown {
+    margin-bottom: 20px;
+  }
+  
+  .template-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .template-card {
+    background: #f9f9f9;
+    padding: 15px;
+    border-radius: 5px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    width: calc(33.333% - 20px);
+    box-sizing: border-box;
+  }
+  
+  .template-card h3 {
+    margin: 0;
+    margin-bottom: 10px;
+  }
+  
+  .template-card p {
+    margin: 5px 0;
+  }
+  
+  .template-card button {
+    margin-right: 10px;
+    padding: 5px 10px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    background-color: #007bff;
+    color: white;
+  }
+  
+  .template-card button:hover {
+    background-color: #0056b3;
+  }
+  
