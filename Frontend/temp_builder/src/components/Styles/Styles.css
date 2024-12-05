@@ -158,7 +158,10 @@ ul li p {
   .template-list {
     grid-template-columns: 1fr;
   }
-
+  .search-bar{
+    width: 180px;
+    margin: 10px;
+  }
   .Homebtns {
     flex-direction: column;
     gap: 10px;
@@ -196,6 +199,11 @@ ul li p {
     margin: auto;
     width: 100px;
   }
+  .search-bar{
+    width: 180px;
+    margin: 10px;
+  }
+  
   .template-list {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   }
