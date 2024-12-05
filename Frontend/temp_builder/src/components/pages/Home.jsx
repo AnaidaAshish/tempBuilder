@@ -62,7 +62,7 @@ const Home = () => {
     }
   };
 
-  return (    
+  return (
     <div className="parent">
       <div className="topNav">
         <h1>Templates</h1>
@@ -87,10 +87,9 @@ const Home = () => {
         </button>
       </div>
       <div className="seacrhSort">
-        <div >
-        
+        <div className="searchsortParent">
           <input
-          className="search-bar"
+            className="search-bar"
             type="text"
             placeholder="Search templates..."
             value={searchQuery}
