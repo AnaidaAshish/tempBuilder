@@ -87,7 +87,7 @@ const Home = () => {
         </button>
       </div>
       <div className="seacrhSort">
-        <div className="searchsortParent">
+        <div>
           <input
             className="search-bar"
             type="text"

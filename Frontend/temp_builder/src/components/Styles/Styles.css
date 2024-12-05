@@ -166,11 +166,6 @@ ul li p {
     flex-direction: column;
     gap: 10px;
   }
-  .searchsortParent{
-    display: flex;
-    align-items: center;
-    border: 1px solid black;
-  }
   .createTemp {
     margin: auto;
     width: 40px;
