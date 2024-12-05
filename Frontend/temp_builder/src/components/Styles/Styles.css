@@ -165,11 +165,11 @@ ul li p {
   }
   .createTemp {
     margin: auto;
-    width: 20px;
+    width: 30px;
   }
   .sort-dropdown {
     margin: auto;
-    width: 200px;
+    width: 100px;
   }
   .template-card {
     padding: 15px;
@@ -190,11 +190,11 @@ ul li p {
   }
   .createTemp {
     margin: auto;
-    width: 20px;
+    width: 30px;
   }
   .sort-dropdown {
     margin: auto;
-    width: 200px;
+    width: 100px;
   }
   .template-list {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
