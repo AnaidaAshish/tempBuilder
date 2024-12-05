@@ -166,9 +166,11 @@ body {
     }
   .createTemp{
     margin: auto;
+    width: 20px;
   }
   .sort-dropdown{
     margin: auto;
+    width: 50px;
   }
     .template-card {
       padding: 15px;
@@ -187,7 +189,14 @@ body {
     button {
       font-size: 15px;
     }
-  
+    .createTemp{
+      margin: auto;
+      width: 20px;
+    }
+    .sort-dropdown{
+      margin: auto;
+      width: 50px;
+    }
     .template-list {
       grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
     }
