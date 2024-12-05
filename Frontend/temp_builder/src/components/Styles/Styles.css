@@ -164,7 +164,12 @@ body {
       flex-direction: column;
       gap: 10px;
     }
-  
+  .createTemp{
+    margin: auto;
+  }
+  .sort-dropdown{
+    margin: auto;
+  }
     .template-card {
       padding: 15px;
     }
