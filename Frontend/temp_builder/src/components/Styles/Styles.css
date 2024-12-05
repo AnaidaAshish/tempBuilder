@@ -169,7 +169,7 @@ ul li p {
   }
   .sort-dropdown {
     margin: auto;
-    width: 150px;
+    width: 350px;
   }
   .template-card {
     padding: 15px;
@@ -194,7 +194,7 @@ ul li p {
   }
   .sort-dropdown {
     margin: auto;
-    width: 150px;
+    width: 350px;
   }
   .template-list {
     grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
